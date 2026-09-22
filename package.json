@@ -1,0 +1,12 @@
+{
+  "name": "resolvedor-dns",
+  "version": "1.0.0",
+  "description": "Um resolvedor DNS escrito do zero sobre node:dgram, seguindo a RFC 1035, com ponteiros de compressao. Zero dependencias.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "cavar": "src/cli.js" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test testes/*.test.js" },
+  "keywords": ["dns", "rfc1035", "dgram", "rede"],
+  "license": "MIT"
+}
